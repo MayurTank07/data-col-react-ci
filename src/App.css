@@ -1,11 +1,11 @@
-/* Add a light grey background to the entire page */
+/* Add a light grey background to the entire page
 body {
   background-color: #f5f5f5;
   font-family: 'Arial', sans-serif;
 }
 
 /* Styling for the form container */
-.app-container {
+/* .app-container {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -81,15 +81,15 @@ h2 {
 }
 
 /* Success Message */
-.message {
+/* .message {
   text-align: center;
   color: #4caf50;
   font-weight: bold;
   margin-top: 20px;
-}
+} */
 
 /* Responsive Styles */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .app-container {
     padding: 20px;
   }
@@ -105,10 +105,23 @@ h2 {
   .message {
     font-size: 1rem;
   }
-}
+} */
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .app-container {
     padding: 25px;
   }
+}  */
+
+body {
+  background: #e9f2fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.alert {
+  font-weight: 500;
 }
