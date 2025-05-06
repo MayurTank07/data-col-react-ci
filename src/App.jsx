@@ -62,11 +62,11 @@ function App() {
     <div className="min-vh-100 d-flex align-items-center justify-content-center bg-light">
       <div className="shadow-lg rounded-4 p-5 bg-white w-100" style={{ maxWidth: '600px' }}>
         <div className="text-center mb-4">
-          <h2 className="fw-bold text-primary">React JS Course + Internship Program</h2>
+          <h2 className="fw-bold text-primary">Course + Internship Program</h2>
           <p className="text-muted mb-1"><strong>Offered by StarX Innovations and IT Solutions</strong></p>
           <p className="mb-1"><i className="bi bi-geo-alt-fill text-danger"></i> Mulund, Mumbai, India</p>
           <p className="mb-1">🕒 <strong>6 Months</strong> – 3 Months Course + 3 Months Internship</p>
-          <p className="text-muted">Learn React from scratch, build amazing projects, and gain real-world experience.</p>
+          <p className="text-muted">Learn Courses from scratch, build amazing projects, and gain real-world experience.</p>
         </div>
 
         <form onSubmit={handleSubmit} noValidate>
